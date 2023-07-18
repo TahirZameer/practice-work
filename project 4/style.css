@@ -1,0 +1,236 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    background-image: url('bc-img.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background: rgba(0,0,0,0.5);
+    opacity: 1;
+    color: white;
+}
+nav .logo{
+    width: 25%;
+    height: 50px;
+    /* background-color: darkred; */
+    float: left;
+    border-right: 1px solid white;
+}
+nav .logo h2{
+    padding: 0%;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    padding: 8px 0px;
+    font-size: 30px;
+    cursor: pointer; 
+}
+nav .logo h2:hover{
+    color: #d30a0a;
+    transition: 0.8s;
+}
+nav .menu{
+    width: 75%;
+    height: 50px;
+    /* background-color: yellow; */
+    float: left;
+    padding-right: 30px;
+}
+nav .menu ul{
+    float: right;
+    text-decoration: none;
+}
+nav .menu ul li{
+    float: left;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 18px;
+    list-style: none;
+}
+nav .menu ul li a{
+    color: white;
+    text-decoration: none;
+
+}
+nav .menu ul li a:hover{
+    /* background-color: brown; */
+    
+    color: #d30a0a;
+    transition: 0.8s ease-in-out;
+}
+/* nav .serach{
+    width: 15%;
+    height: 50px;
+    background-color: yellow;
+    float: left;
+    padding-right: 30px;
+} */
+.info{
+    width: 60%;
+    height: 60vh;
+    /* background-color: yellow; */
+    margin: 4% 3%;
+    border-radius: 25px;
+    padding: 1%;
+    float: left;
+    color: #fff;
+    position: relative;
+    
+}
+.info .para{
+    padding-left: 10px;
+    padding-bottom: 25px;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    font-size: 15px;
+}
+.info h1{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+.info h1 .changing-fields:after{
+    content: '';
+	animation: changetext 10s infinite linear;
+	color: rgba(208, 3, 3, 0.9);
+    font-weight: bolder;
+    
+}
+
+@keyframes changetext
+{
+	0%{content:"Development";}
+	30% { content: "Designing"; }
+	60% { content: "Front-end"; }
+	80% { content: "Back-end"; }
+	100% { content: "Full-stack"; }
+}
+.info h2{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.btn-2{
+    width: 160px;
+    height: 35px;
+    font-size: 18px;
+    background-color: #d30a0a;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    /* margin-left: 10px; */
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-2 a{
+    text-decoration: none;
+    color: #fff;
+}
+.btn-2 a:hover{
+    
+    transition: 0.8s;
+    color: black;
+}
+
+.login{
+    width: 25%;
+    height: 65vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    border: 1px;
+    border-radius: 25px;
+    padding: 1%;
+    margin: 4% 2% 2%;
+    float: left;
+    color: #fff;
+    text-align: center;
+}
+.login h2{
+    padding-top: 1%;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.login input{
+    margin-top: 4%;
+    width: 280px;
+    height: 40px;
+    background: transparent;
+    border-bottom: 1px solid #d30a0a;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    color: #fff;   
+}
+.login .btn-3{
+    margin-top: 50px;
+    margin-left: 20px;
+    float: left;
+    background-color: #d30a0a;
+    width: 160px;
+    height: 35px;
+    font-size: 18px;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    /* margin-left: 10px; */
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+.login .btn-3:hover{
+    background-color: aliceblue;
+    border: 1px solid #d30a0a;
+}
+.login .btn-3 a{
+    text-decoration: none;
+    color: black;
+    
+}
+.login .btn-3 a:hover{
+    color: black;
+    transition: 0.3s;
+    
+}
+.login p{
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+}
+.sign-up{
+    text-decoration: none;
+    color: #d30a0a;
+    font-weight: bold;
+    
+}
+.sign-up:hover{
+    color: rgb(1, 107, 10);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
