@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="index.js">
+
+		// function para_change() 
+		// {
+		// 	document.getElementById("magic3").innerHTML = "Para Changed." ;
+		// }
+
+	</script>
+</head>
+<body>
+
+	<h1>My First javascript program not understandable</h1>
+	<br><br>
+	<button type="button" onclick="document.getElementById('kuch_bi').innerHTML = Date()">
+		click me to display date and time
+	</button>
+	<br><br>
+	<p id="kuch_bi"> </p>
+	<br>
+
+	<h2 id="magic"> Button by myself </h2>
+	<br>
+	<button type="button" onclick="document.getElementById('magic').innerHTML = 'javascript Magic' ">
+		click me to change the heading
+	</button>
+	<br><br>
+
+	<h2 id="magic1"> Hiding Html content by Clicking </h2>
+	<br>
+	<button type="button" id="button_hide" onclick="document.getElementById('button_hide').style.display = 'none' ">
+		click me to hide this button
+	</button>
+	<br><br>
+
+	<h2> Showing Hide Html content by Clicking </h2>
+	<p id="magic2" style="display: none;"> This content will be displayed when you clicked the button </p>
+	<br>
+	<button type="button" id="button_hide" onclick="document.getElementById('magic2').style.display = 'block' ">
+		click me to show hide HTML content
+	</button>
+	<br><br>
+
+	<h2> Change HTML just by Clicking </h2>
+	<br>
+	<p id="magic3"> A paragraph </p>
+	<br>
+	<button type="button" onclick="para_change()">
+		click me to change HTML Paragraph
+	</button>
+	<br><br>
+
+	<h2> My First use of document.write method </h2><br>
+	<p>My first use of method which can wipeout all the page content</p>
+	<br>
+	<button type="button" onclick="document.write(5 + 6)">Let's Try it</button>
+	<br><br>
+
+</body>
+</html>

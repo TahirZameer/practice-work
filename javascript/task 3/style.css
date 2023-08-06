@@ -1,0 +1,23 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body
+{
+    /*background-color: brown;*/
+}
+
+.div1
+{
+	/* display: flex; */
+    /*//this is the property which is use to make the content flex */
+	/*justify-content: center;*/
+    /* align-items: center; */
+    /* align-content: center; */
+    /* text-align: center; */
+}
+
+

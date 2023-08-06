@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+</head>
+<body>
+
+
+	<h2>What Can JavaScript Do?</h2>
+
+	<p id="demo">JavaScript can change HTML content.</p>
+
+	<button type="button" onclick="document.getElementById('demo').innerHTML = 'Hello JavaScript!'  ">Click Me!</button>
+
+	
+<br><br><br><br>
+
+
+	<h1> What can javascript do?? </h1>
+
+	<p id="j-info"> Javascript is very powerful language for front-end and also for back-end too </p>
+
+	<button type="button" onclick='document.getElementById("j-info").innerHTML = "Javascript First Program!!!!"'> Click Me!! </button>
+
+
+
+<br><br><br><br>
+
+
+	<h2>Javascript example 2</h2>
+	
+	<p> If you want to turn on the light then click turn-on and viceversa </p>
+
+	
+
+	<button type="button" onclick="document.getElementById('myImage').src= 'bulbon.gif' "> Turn on the light </button>
+
+	<img id="myImage" src="bulbon.gif" style="width:100px">
+
+	<button type="button" onclick="document.getElementById('myImage').src= 'pic_bulboff.gif' "> Turn off the light </button>
+
+
+
+
+
+	<br><br><br><br><br><br><br><br>
+	<h2>This is paragraph changing task by clicking on button in javascript</h2>
+
+	<script type="text/javascript"> 
+
+		function myfunction()
+		{
+			document.getElementById("para").innerHTML = "when click on button the Paragraph is Changed." ;
+		}
+
+		
+
+	</script>
+
+	<p id="para"> This is paragraph, which will be change when click on the button below; </p>
+
+	<button type="button" onclick="myfunction()" > Click Me to Change Para </button>
+
+
+
+
+
+
+
+
+	<br><br><br><br><br><br><br><br>
+	<h2>This is paragraph changing task by clicking on button in javascript with external javacript page</h2>
+
+	
+
+	<p id="para1"> This is paragraph, which will be change when click on the button below through external javascript </p>
+
+	<button type="button" onclick="myfunction1()" > Click Me to Change Para </button>
+
+	<script type="text/javascript" src="index.js"> 	</script>
+
+
+	<br><br><br><br>
+
+
+<script type="text/javascript">
+	function myfunction5(a, b, c)
+	{
+	    return a + b + c;
+	}
+	let d = myfunction5(243, 45, 4);
+</script>
+
+    
+</body>
+</html>

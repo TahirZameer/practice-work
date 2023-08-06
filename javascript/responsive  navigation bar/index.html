@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Responsive Navigation Bar using Javascript </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+
+        <div class="logo">
+
+            <h2><a href="#">Tahir Zameer</a> </h2>
+
+        </div>
+        <div class="hamburger">
+
+            <div class="line">  </div>
+            <div class="line">  </div>
+            <div class="line">  </div>
+
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="#" class="active"> Home </a> </li>
+                <li><a href="#" > About </a> </li>
+                <li><a href="#" > Services </a> </li>
+                <li><a href="#" > Skills </a> </li>
+                <li><a href="#" > Projects </a> </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section class="home">
+
+        <div class="info">
+            <h1 class="title">Hi, I'm Tahir Zameer! &#128075;</h1>
+            <h2 class="title"> I am <span> Developer </span>!!! </h2>
+            <p class="subtitle">
+                I am a full stack developer having two year of experience in front-end 
+                development and UI/UX designs. I am working with javascript, Reactjs 
+                and the version control system Git and GitHub. 
+            </p>
+            <button class="btn"> Download </button>
+
+        </div>
+        
+
+    </section>
+
+
+    <script>
+
+        hamburger = document.querySelector(".hamburger");
+        hamburger.onclick = function()
+        {
+            navBar = document.querySelector(".nav-bar");
+            navBar.classList.toggle("active");
+        }
+
+    </script>
+    
+</body>
+</html>
